@@ -2073,42 +2073,22 @@ public class board extends javax.swing.JFrame {
         setPreferredSize(new Dimension(55,55));
         if(selN == 4)
         {
-            //jPanel2.setVisible(false);
-            //jPanel1.setVisible(false);
-            
-            //jPanel2.setVisible(false);
-            //jPanel3.setVisible(false);
-            //jPanel4.setVisible(false);
-            //jPanel5.setVisible(false);
-            //jPanel6.setVisible(false);
             jPanel7.setVisible(false);
             jPanel8.setVisible(false);
             jPanel9.setVisible(false);
             jPanel10.setVisible(false);
-            //jPanel11.setVisible(false);
             jPanel12.setVisible(false);
-            //jPanel13.setVisible(false);
-           //jPanel14.setVisible(false);
-            //jPanel15.setVisible(false);
             jPanel16.setVisible(false);
             jPanel17.setVisible(false);
             jPanel18.setVisible(false);
             jPanel19.setVisible(false);
-            //jPanel20.setVisible(false);
-            //jPanel21.setVisible(false);
-            //jPanel22.setVisible(false);
             jPanel23.setVisible(false);
             jPanel24.setVisible(false);
             jPanel25.setVisible(false);
             jPanel26.setVisible(false);
-            //jPanel27.setVisible(false);
             jPanel28.setVisible(false);
-            //jPanel29.setVisible(false);
-            //jPanel30.setVisible(false);
-            //jPanel31.setVisible(false);
             jPanel32.setVisible(false);
             jPanel33.setVisible(false);
-            //jPanel34.setVisible(false);
             jPanel35.setVisible(false);
             jPanel36.setVisible(false);
             jPanel37.setVisible(false);
@@ -2147,7 +2127,6 @@ public class board extends javax.swing.JFrame {
         }
         else if(selN == 8)
         {
-            //jPanel2.setVisible(true);
             jPanel7.setVisible(true);
             jPanel8.setVisible(true);
             jPanel9.setVisible(true);
@@ -3039,30 +3018,7 @@ public class board extends javax.swing.JFrame {
     		}
     	System.out.println("Solution found : " + Methods.arrayToString(solution));
     	
-    	// initialize the chessboard1 with zeros
-        /*int[][] board = new int[n][n];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                board[i][j] = 0;
-            }
-        }
-
-        // place the queens on the board
-        for (int i = 0; i < n; i++) {
-            board[solution[i]][i] = 1;
-        }
-
-        // print the chessboard with queens
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (board[i][j] == 1) {
-                    System.out.print("Q ");
-                } else {
-                    System.out.print(". ");
-                }
-            }
-            System.out.println();
-        }*/
+   
         
     }
         try {
