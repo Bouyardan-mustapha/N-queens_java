@@ -11,7 +11,7 @@ import javax.swing.JLabel;
 
 /**
  *
- * @author Ikhlas ^_^
+ * @author Ikhlas^_^
  */
 public class board extends javax.swing.JFrame {
 
